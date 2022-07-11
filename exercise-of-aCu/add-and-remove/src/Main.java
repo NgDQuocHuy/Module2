@@ -10,27 +10,25 @@ public class Main {
             n = scanner.nextInt();
         } while (n <= 0);
 
-        int array[] = new int[n];
+        int A[] = new int[n];
 
         System.out.println("Nhập các phần tử cho mảng: ");
-        for (i = 0; i < array.length; i++) {
+        for (i = 0; i < n; i++) {
             System.out.print("Nhập phần tử thứ " + i + ": ");
-            array[i] = scanner.nextInt();
+            A[i] = scanner.nextInt();
         }
-
-        // hiển thị các phần tử trong mảng
         System.out.println("Mảng hiện tại có các phần tử là: ");
-        for (i = 0; i < array.length; i++) {
-            System.out.print(array[i] + "\t");
+        for (i = 0; i < n; i++) {
+            System.out.print(A[i] + "\t");
         }
         System.out.println();
 
         System.out.println("Nhập phần tử muốn xóa khỏi mảng: ");
         int element = scanner.nextInt();
 
-        for (c = i = 0; i < array.length; i++) {
-            if (array[i] != element) {
-                array[c] = array[i];
+        for (c = i = 0; i < n; i++) {
+            if (A[i] != element) {
+                A[c] = A[i];
                 c++;
             }
         }
@@ -39,8 +37,8 @@ public class Main {
 
         // hiển thị các phần tử trong mảng sau khi xóa phần từ
         System.out.println("Mảng còn lại sau khi xóa phần tử " + element + " là: ");
-        for (i = 0; i < array.length; i++) {
-            System.out.print(array[i] + "\t");
+        for (i = 0; i < n; i++) {
+            System.out.print(A[i] + "\t");
         }
     }
 }
