@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf5b835d-d774-4f0f-8f48-3b9e1aa89993" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Array-Java/del-element-in-array/out/production/del-element-in-array/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Array-Java/del-element-in-array/out/production/del-element-in-array/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise-of-aCu/back-menu/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise-of-aCu/back-menu/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise-of-aCu/back-menu/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise-of-aCu/back-menu/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise-of-aCu/back-menu/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise-of-aCu/back-menu/back-menu.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise-of-aCu/back-menu/out/production/back-menu/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise-of-aCu/demo-constructor/out/production/demo-constructor/OverloadConst.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise-of-aCu/demo-constructor/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise-of-aCu/demo-constructor/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise-of-aCu/sum-of-squares/out/production/sum-of-squares/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise-of-aCu/sum-of-squares/out/production/sum-of-squares/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise-of-aCu/sum-of-squares/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise-of-aCu/sum-of-squares/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise-of-aCu/test/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../searching/AlgorithmComplexityTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../searching/AlgorithmComplexityTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/insertion-sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/insertion-sort/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2C9fN4JOAyXBhgPjXFLJps0EQ9U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/huynd/OneDrive/Desktop/TaskModule2/OOP-Java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf5b835d-d774-4f0f-8f48-3b9e1aa89993" name="Changes" comment="" />
+      <created>1658219677244</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658219677244</updated>
+      <workItem from="1658219678360" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
