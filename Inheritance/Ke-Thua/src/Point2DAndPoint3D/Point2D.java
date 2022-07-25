@@ -35,7 +35,8 @@ public class Point2D {
         return ArrayOf;
     }
     public void setXY(float x, float y) {
-        float[] ArrayOf = {x, y};
+        this.x = x;
+        this.y = y;
     }
 
     @Override
