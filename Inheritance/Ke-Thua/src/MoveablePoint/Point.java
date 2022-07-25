@@ -31,7 +31,8 @@ public class Point {
     }
 
     public void setXY(float x, float y) {
-        float[] Array = {x, y};
+        this.x = x;
+        this.y = y;
     }
 
     public float[] getXY() {
