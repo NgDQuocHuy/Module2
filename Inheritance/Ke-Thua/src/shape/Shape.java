@@ -1,4 +1,4 @@
-package Shape;
+package shape;
 
 public class Shape {
     private String color = "green";
