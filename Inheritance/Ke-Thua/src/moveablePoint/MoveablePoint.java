@@ -1,4 +1,4 @@
-package MoveablePoint;
+package moveablePoint;
 
 import java.util.Arrays;
 

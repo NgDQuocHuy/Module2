@@ -1,4 +1,4 @@
-package MoveablePoint;
+package moveablePoint;
 
 public class TestMoveablePoint {
     public static void main(String[] args) {

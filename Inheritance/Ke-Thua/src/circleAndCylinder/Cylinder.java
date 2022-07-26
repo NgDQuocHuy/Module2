@@ -1,4 +1,4 @@
-package CircleAndCylinder;
+package circleAndCylinder;
 
 public class Cylinder extends Circle {
     private double height = 3;

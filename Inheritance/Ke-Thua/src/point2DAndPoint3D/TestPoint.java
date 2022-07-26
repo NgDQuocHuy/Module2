@@ -1,4 +1,4 @@
-package Point2DAndPoint3D;
+package point2DAndPoint3D;
 
 public class TestPoint {
     public static void main(String[] args) {

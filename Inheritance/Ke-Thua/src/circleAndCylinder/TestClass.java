@@ -1,4 +1,4 @@
-package CircleAndCylinder;
+package circleAndCylinder;
 
 public class TestClass {
     public static void main(String[] args) {

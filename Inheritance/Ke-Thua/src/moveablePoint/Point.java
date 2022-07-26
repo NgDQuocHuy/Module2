@@ -1,6 +1,5 @@
-package MoveablePoint;
+package moveablePoint;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Point {

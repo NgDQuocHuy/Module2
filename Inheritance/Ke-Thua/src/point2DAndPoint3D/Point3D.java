@@ -1,6 +1,5 @@
-package Point2DAndPoint3D;
+package point2DAndPoint3D;
 
-import java.sql.Array;
 import java.util.Arrays;
 
 public class Point3D extends Point2D{
