@@ -1,34 +1,34 @@
 public class Main {
 //      Constructor Overloading (Nạp chồng) trong Java
 }
-class OverloadConst {
+class Student {
 
     int id;
     String name;
     int age;
     String clas;
 
-    // Constructor có 2 tham số
-    OverloadConst(int stt, String ten) {
-        id = stt;
-        name = ten;
+    // Student có 2 tham số
+    public Student(int id, String name) {
+        this.id = id;
+        this.name = name;
     }
 
-    // Constructor có 3 tham số
-    OverloadConst(int stt, String ten, int tuoi) {
-        id = stt;
-        name = ten;
-        age = tuoi;
+    // Student có 3 tham số
+    public Student(int id, String name, int age) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+    }
+    // Student có 4 tham số
+    public Student(int id, String name, int age, String clas) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.clas = clas;
     }
 
-    OverloadConst(int stt, String ten, int tuoi, String lop) {
-        id = stt;
-        name = ten;
-        age = tuoi;
-        clas = lop;
-    }
-
-    // Phương thức
+    // Phương thức hiển thị
     void display() {
         System.out.println(id + "\t" + name + "\t" + age + "\t" + clas);
     }
@@ -36,19 +36,19 @@ class OverloadConst {
 
     public static void main(String[] args) {
         // Tạo đối tượng và truyền vào 2 tham số
-        OverloadConst s1 = new OverloadConst(01, "Nguyễn Đình Quốc Huy");
+        Student s1 = new Student(01, "Nguyễn Đình Quốc Huy");
 
         // Tạo đối tượng và truyền vào 3 tham số
-        OverloadConst s2 = new OverloadConst(02, "Quốc Huy Nguyễn Đình", 23);
+        Student s2 = new Student(02, "Quốc Huy Nguyễn Đình", 23);
 
         // Tạo đối tượng và truyền vào 4 tham số
-        OverloadConst s3 = new OverloadConst(03, "Nguyễn Đình Huy Quốc", 22, "C0522K1");
+        Student s3 = new Student(03, "Nguyễn Đình Huy Quốc", 22, "C0522K1");
 
-        System.out.println("OverloadConst với 2 tham số:");
+        System.out.println("Student với 2 tham số:");
         s1.display();
-        System.out.println("OverloadConst với 3 tham số:");
+        System.out.println("Student với 3 tham số:");
         s2.display();
-        System.out.println("OverloadConst với 4 tham số:");
+        System.out.println("Student với 4 tham số:");
         s3.display();
     }
 }

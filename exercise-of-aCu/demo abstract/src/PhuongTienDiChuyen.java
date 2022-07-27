@@ -1,32 +1,71 @@
-abstract class Animal {
+abstract class PhuongTienDiChuyen {
 //    Lớp con phải kế thừa hết abstract của lớp cha
-    abstract void makeSound();
-    private String color = "Red";
+
+    private String hang = "Mazda";
+    PhuongTienDiChuyen() {
+
+    }
     public void displayInfo() {
-        System.out.println("I am an animal.");
+        System.out.println("Tôi là xe oto.");
     }
 
-    Animal(String color) {
-        this.color = color;
+    PhuongTienDiChuyen(String hang) {
+        this.hang = hang;
     }
 }
-class Dog extends Animal {
-    @Override
-    public void makeSound() {
-        System.out.println("Tôi là chó Cái");
-    }
-    Dog() {
+class XeOto extends PhuongTienDiChuyen {
+    private double km = 60;
+    private double h = 1;
+
+    public XeOto(double km, double h) {
         super("Blue");
+        this.km = km;
+        this.h = h;
+    }
+
+
+    public double getKm() {
+        return km;
+    }
+
+    public void setKm(double km) {
+        this.km = km;
+    }
+
+    public double getH() {
+        return h;
+    }
+
+    public void setH(double h) {
+        this.h = h;
+    }
+    
+    double layVanToc() {
+        return km / h;
+    }
+
+
+
+    @Override
+    public void displayInfo() {
+        System.out.println("Tôi là xe oto Mazda");
+    }
+
+    @Override
+    public String toString() {
+        return layVanToc() + " km/h";
     }
 }
 class Main {
     public static void main(String[] args) {
 //        Không thể tạo ra đối tượng cho Class trừu tượng
-        Animal a1;
+        PhuongTienDiChuyen a1;
 //        Nếu cố tạo sẽ bị lỗi biên dịch
-//        Animal a2 = new Animal();
-        Dog d1 = new Dog();
-        d1.displayInfo();
-        d1.makeSound();
+//        PhuongTienDiChuyen a2 = new PhuongTienDiChuyen();
+
+//        PhuongTienDiChuyen phuongtien = new PhuongTienDiChuyen();
+        XeOto oto1 = new XeOto(80, 2);
+        oto1.displayInfo();
+        System.out.println(oto1);
     }
 }
