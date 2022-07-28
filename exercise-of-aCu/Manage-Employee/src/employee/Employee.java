@@ -2,9 +2,10 @@ package employee;
 
 
 import java.time.LocalDate;
-import java.util.Scanner;
 
-public abstract class Employee {
+public abstract class EmployeeList {
+    private Employee[] employees = new Employee[10];
+    private int nextIndex = 0;
     private int id;
     private String fullName;
     private LocalDate birthDay;
@@ -13,7 +14,7 @@ public abstract class Employee {
     private String employee_type;
     private int employee_count;
 
-    public Employee(int id, String fullName,
+    public EmployeeList(int id, String fullName,
                     LocalDate birthDay, String phone,
                     String email) {
         this.id = id;
@@ -22,6 +23,18 @@ public abstract class Employee {
         this.phone = phone;
         this.email = email;
 
+    }
+
+    public Employee get(int index) {
+        return this.employees[index];
+    }
+
+    public void add(Employee employee) {
+        if (nextIndex < employees.length) {
+            employees[nextIndex] = employee;
+            System.out.println("Employee added at " + nextIndex);
+            nextIndex++;
+        }
     }
 
     public int getId() {
