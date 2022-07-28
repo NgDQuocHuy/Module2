@@ -1,2 +1,8 @@
-package resizeable;public class Main {
+package resizeable;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Test Circle");
+        
+    }
 }

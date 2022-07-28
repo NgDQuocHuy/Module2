@@ -3,9 +3,7 @@ package employee;
 
 import java.time.LocalDate;
 
-public abstract class EmployeeList {
-    private Employee[] employees = new Employee[10];
-    private int nextIndex = 0;
+public abstract class Employee {
     private int id;
     private String fullName;
     private LocalDate birthDay;
@@ -14,7 +12,7 @@ public abstract class EmployeeList {
     private String employee_type;
     private int employee_count;
 
-    public EmployeeList(int id, String fullName,
+    public Employee(int id, String fullName,
                     LocalDate birthDay, String phone,
                     String email) {
         this.id = id;
@@ -23,18 +21,6 @@ public abstract class EmployeeList {
         this.phone = phone;
         this.email = email;
 
-    }
-
-    public Employee get(int index) {
-        return this.employees[index];
-    }
-
-    public void add(Employee employee) {
-        if (nextIndex < employees.length) {
-            employees[nextIndex] = employee;
-            System.out.println("Employee added at " + nextIndex);
-            nextIndex++;
-        }
     }
 
     public int getId() {

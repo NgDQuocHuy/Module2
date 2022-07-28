@@ -3,6 +3,7 @@ package employee;
 import java.time.LocalDate;
 
 public class Experience extends Employee{
+    private String experience = "Experience";
     private int explnYear;
     private String proSkill;
 
@@ -34,6 +35,8 @@ public class Experience extends Employee{
     @Override
     public String toString() {
         return super.toString()
+                + "\n- Chức vụ      : "
+                + experience
                 + "\n- Kinh nghiệm  : "
                 + explnYear
                 + " năm"

@@ -1,2 +1,4 @@
-package resizeable;public class Resizeable {
+package resizeable;
+public interface Resizeable {
+    void resize(double percent);
 }

@@ -16,6 +16,7 @@
       <change beforePath="$PROJECT_DIR$/../../exercise-of-aCu/sum-of-squares/out/production/sum-of-squares/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise-of-aCu/sum-of-squares/out/production/sum-of-squares/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../exercise-of-aCu/sum-of-squares/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise-of-aCu/sum-of-squares/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../exercise-of-aCu/test/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sort/insertion-sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sort/insertion-sort/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +44,8 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RunManager">
@@ -69,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1658131006995</updated>
       <workItem from="1658131008178" duration="12000" />
-      <workItem from="1658131026421" duration="743000" />
+      <workItem from="1658131026421" duration="1628000" />
     </task>
     <servers />
   </component>
