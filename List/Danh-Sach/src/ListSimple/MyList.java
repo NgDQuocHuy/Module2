@@ -8,7 +8,7 @@ public class MyList<E> {
     private Object[] elements;
 
     public MyList() {
-        elements = new Object[10];
+        elements = new Object[DEFAULT_CAPACITY];
     }
     private void ensureCapa() {
         int newSize = elements.length * 2;
