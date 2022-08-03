@@ -16,6 +16,7 @@ public class MyList<E> {
     //      Phương thức add
     public void add(int index, E element) {
         checkIndex(index);
+        ensureCapacity();
         elements[index] = element;
         size++;
     }
@@ -70,6 +71,7 @@ public class MyList<E> {
     }
 
     public boolean add(E o) {
+        ensureCapacity();
         if (o == null)
             return false;
         else
