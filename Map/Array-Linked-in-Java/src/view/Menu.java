@@ -1,13 +1,12 @@
-package testProduct;
+package menu;
 
-import java.lang.String;
-import product.Product;
+import model.Product;
 import product.ProductManager;
 
 import java.util.Scanner;
 
-public class TestProduct {
-    public static void main(String[] args) {
+public class Menu {
+    public void view() {
         Scanner input = new Scanner(System.in);
         ProductManager listProducts = new ProductManager();
         int choice = 0;
